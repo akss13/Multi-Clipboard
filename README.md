@@ -8,7 +8,7 @@ To install Multi-Clipboard simply clone the repository and execute the driver sc
 ```
 ### <b>Usage</b>
 To use Multi-Clipboard follow these steps:
-<br><u>For copying:</u>
+<br><ins>For copying:</ins>
 + Select the text and press 
 ```
 <Ctrl>+C
@@ -19,7 +19,7 @@ To use Multi-Clipboard follow these steps:
 ```
 Now the selected text is copied into the <b>first clipboard</b>. <br>
 The same can be done for clipboards <b>2</b> & <b>3</b>.<br>
-<br><u>For pasting:</u>
+<br><ins>For pasting:</ins>
 + Press the following keys to select clipboard to paste from, example:
 ```
 <Shift>+<Alt>+1
