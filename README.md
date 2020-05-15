@@ -18,13 +18,13 @@ To use Multi-Clipboard follow these steps:
 <Alt>+1
 ```
 Now the selected text is copied into the <b>first clipboard</b>. <br>
-The same can be done for clipboards <b>2</b> & <b>3</b>.<br>
+The same can be done for other clipboards.<br>
 <br><ins>For pasting:</ins>
 + Press the following keys to select clipboard to paste from, example:
 ```
 <Shift>+<Alt>+1
 ```
-The same can be done for clipboards <b>2</b> & <b>3</b>.<br>
+The same can be done for other clipboards.<br>
 + Then paste it wherever you want as follows:
 ```
 <Ctrl>+V
