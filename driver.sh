@@ -26,20 +26,15 @@ function driver() {
     fi
     #export local bin dir
     export PATH="$PATH:$HOME/.local/bin"
-    #copy scripts to local bin folder
-    cp ./src/shortcut_c1.sh $working_dir_bin
-    cp ./src/shortcut_c2.sh $working_dir_bin
-    cp ./src/shortcut_c3.sh $working_dir_bin
-    cp ./src/shortcut_v1.sh $working_dir_bin
-    cp ./src/shortcut_v2.sh $working_dir_bin
-    cp ./src/shortcut_v3.sh $working_dir_bin
-    #assign shotcuts
-    python3 ./keyboard_shotcut.py 'Copy 1' 'shortcut_c1.sh' '<Alt>1'
-    python3 ./keyboard_shotcut.py 'Copy 2' 'shortcut_c2.sh' '<Alt>2'
-    python3 ./keyboard_shotcut.py 'Copy 3' 'shortcut_c3.sh' '<Alt>3'
-    python3 ./keyboard_shotcut.py 'Paste 1' 'shortcut_v1.sh' '<Shift><Alt>1'
-    python3 ./keyboard_shotcut.py 'Paste 2' 'shortcut_v2.sh' '<Shift><Alt>2'
-    python3 ./keyboard_shotcut.py 'Paste 3' 'shortcut_v3.sh' '<Shift><Alt>3'
-
+    #user input for number of shortcuts
+    echo "Enter number of clipboards to have between 1-9"
+    read number
+    #copy scripts to local bin folder and assign shotcuts
+    for ((i = 1; i <= number; i++)); do
+        cp "./src/shortcut_c$i.sh" $working_dir_bin
+        cp "./src/shortcut_v$i.sh" $working_dir_bin
+        python3 ./keyboard_shotcut.py "Copy $i" "shortcut_c$i.sh" "<Alt>$i"
+        python3 ./keyboard_shotcut.py "Paste $i" "shortcut_v$i.sh" "<Shift><Alt>$i"
+    done
 }
 driver
