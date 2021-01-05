@@ -1,10 +1,19 @@
 # Multi-Clipboard
 Multi-Clipboard enables keyboard driven multiple clipboards. A dirty hack to have multiple clipboards for copy-pasting muliple text based information.
 <br>
+### <b>Dependencies</b>
+```
+xclip
+```
+Install the dependencies as following:
++ Arch: ```sudo pacman -S xclip ```
++ Debian based distro: ```sudo apt install xclip ```
+<br><br>
+
 ### <b>Installation</b>
 To install Multi-Clipboard simply clone the repository and execute the driver script as follows:
 ```bash
-./driver.sh
+./arch_driver.sh
 ```
 ### <b>Usage</b>
 To use Multi-Clipboard follow these steps:
