@@ -5,7 +5,6 @@ function driver() {
     #create local tmp dir
     temp_dir="/.local/tmp/multi-clipboard"
     working_dir="${HOME}${temp_dir}"
-    echo $working_dir
     if [ -d ${working_dir} ]; then
         echo "Tmp Directory exists"
     else
@@ -46,22 +45,22 @@ function driver() {
         python3 ./keyboard_shotcut.py "Paste 3" "bash $working_dir_bin/shortcut_v3.sh" "<Shift><Alt>numbersign"
     fi
     if [ $number -gt 3 ]; then
-        python3 ./keyboard_shotcut.py "Paste 3" "bash $working_dir_bin/shortcut_v3.sh" "<Shift><Alt>dollar"
+        python3 ./keyboard_shotcut.py "Paste 4" "bash $working_dir_bin/shortcut_v4.sh" "<Shift><Alt>dollar"
     fi
     if [ $number -gt 4 ]; then
-        python3 ./keyboard_shotcut.py "Paste 3" "bash $working_dir_bin/shortcut_v3.sh" "<Shift><Alt>percent"
+        python3 ./keyboard_shotcut.py "Paste 5" "bash $working_dir_bin/shortcut_v5.sh" "<Shift><Alt>percent"
     fi
     if [ $number -gt 5 ]; then
-        python3 ./keyboard_shotcut.py "Paste 3" "bash $working_dir_bin/shortcut_v3.sh" "<Shift><Alt>asciicircum"
+        python3 ./keyboard_shotcut.py "Paste 6" "bash $working_dir_bin/shortcut_v6.sh" "<Shift><Alt>asciicircum"
     fi
     if [ $number -gt 6 ]; then
-        python3 ./keyboard_shotcut.py "Paste 3" "bash $working_dir_bin/shortcut_v3.sh" "<Shift><Alt>ampersand"
+        python3 ./keyboard_shotcut.py "Paste 7" "bash $working_dir_bin/shortcut_v7.sh" "<Shift><Alt>ampersand"
     fi
     if [ $number -gt 7 ]; then
-        python3 ./keyboard_shotcut.py "Paste 3" "bash $working_dir_bin/shortcut_v3.sh" "<Shift><Alt>asterisk"
+        python3 ./keyboard_shotcut.py "Paste 8" "bash $working_dir_bin/shortcut_v8.sh" "<Shift><Alt>asterisk"
     fi
     if [ $number -gt 8 ]; then
-        python3 ./keyboard_shotcut.py "Paste 3" "bash $working_dir_bin/shortcut_v3.sh" "<Shift><Alt>parenleft"
+        python3 ./keyboard_shotcut.py "Paste 9" "bash $working_dir_bin/shortcut_v9.sh" "<Shift><Alt>parenleft"
     fi
 }
 driver
