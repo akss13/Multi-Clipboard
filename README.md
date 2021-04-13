@@ -29,27 +29,28 @@ export PATH="$HOME/bin:$PATH"
 3. Copy the files in ```src``` directory to created bin directory.
 4. Create binds for the scripts in the config file of your WM.<br> For example for ```i3```, add these lines to ```$HOME/.config/i3/config``` file.
 ```
-bindsym $alt+1 exec /home/akss13/bin/shortcut_c1.sh
-bindsym $alt+2 exec /home/akss13/bin/shortcut_c2.sh
-bindsym $alt+3 exec /home/akss13/bin/shortcut_c3.sh
-bindsym $alt+4 exec /home/akss13/bin/shortcut_c4.sh
-bindsym $alt+5 exec /home/akss13/bin/shortcut_c5.sh
-bindsym $alt+6 exec /home/akss13/bin/shortcut_c6.sh
-bindsym $alt+7 exec /home/akss13/bin/shortcut_c7.sh
-bindsym $alt+8 exec /home/akss13/bin/shortcut_c8.sh
-bindsym $alt+9 exec /home/akss13/bin/shortcut_c9.sh
+bindsym $alt+1 exec /home/user/bin/shortcut_c1.sh
+bindsym $alt+2 exec /home/user/bin/shortcut_c2.sh
+bindsym $alt+3 exec /home/user/bin/shortcut_c3.sh
+bindsym $alt+4 exec /home/user/bin/shortcut_c4.sh
+bindsym $alt+5 exec /home/user/bin/shortcut_c5.sh
+bindsym $alt+6 exec /home/user/bin/shortcut_c6.sh
+bindsym $alt+7 exec /home/user/bin/shortcut_c7.sh
+bindsym $alt+8 exec /home/user/bin/shortcut_c8.sh
+bindsym $alt+9 exec /home/user/bin/shortcut_c9.sh
 
-bindsym Shift+$alt+1 exec /home/akss13/bin/shortcut_v1.sh
-bindsym Shift+$alt+2 exec /home/akss13/bin/shortcut_v2.sh
-bindsym Shift+$alt+3 exec /home/akss13/bin/shortcut_v3.sh
-bindsym Shift+$alt+4 exec /home/akss13/bin/shortcut_v1.sh
-bindsym Shift+$alt+5 exec /home/akss13/bin/shortcut_v2.sh
-bindsym Shift+$alt+6 exec /home/akss13/bin/shortcut_v3.sh
-bindsym Shift+$alt+7 exec /home/akss13/bin/shortcut_v1.sh
-bindsym Shift+$alt+8 exec /home/akss13/bin/shortcut_v2.sh
-bindsym Shift+$alt+9 exec /home/akss13/bin/shortcut_v3.sh
+bindsym Shift+$alt+1 exec /home/user/bin/shortcut_v1.sh
+bindsym Shift+$alt+2 exec /home/user/bin/shortcut_v2.sh
+bindsym Shift+$alt+3 exec /home/user/bin/shortcut_v3.sh
+bindsym Shift+$alt+4 exec /home/user/bin/shortcut_v1.sh
+bindsym Shift+$alt+5 exec /home/user/bin/shortcut_v2.sh
+bindsym Shift+$alt+6 exec /home/user/bin/shortcut_v3.sh
+bindsym Shift+$alt+7 exec /home/user/bin/shortcut_v1.sh
+bindsym Shift+$alt+8 exec /home/user/bin/shortcut_v2.sh
+bindsym Shift+$alt+9 exec /home/user/bin/shortcut_v3.sh
 
 ```
++ Here user is ```$USER```
 + Note Remember to set ```alt``` as ```Mod1``` or ```Mod4``` as follows: 
 ```
 set $alt Mod1
@@ -80,5 +81,4 @@ The same can be done for other clipboards.<br>
 ```
 
 ### <b>Note:</b>
-+ This tool only works with linux distros with desktop environment as <b>GNOME</b>. If you want to make this work with your linux distro or UNIX like distro comment the shortcut assignment at the end of driver script and manually assign shortcuts by yourself as per your distro.
 + Maximum of 9 clipboards.
