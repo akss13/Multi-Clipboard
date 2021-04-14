@@ -51,7 +51,7 @@ bindsym Shift+$alt+9 exec /home/user/bin/shortcut_v9.sh
 
 ```
 + Here user is ```$USER```
-+ Note Remember to set ```alt``` as ```Mod1``` or ```Mod4``` as follows: 
++ <b>Note:</b> Remember to set ```alt``` as ```Mod1``` or ```Mod4``` as follows: 
 ```
 set $alt Mod1
 ```
