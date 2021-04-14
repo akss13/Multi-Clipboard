@@ -42,12 +42,12 @@ bindsym $alt+9 exec /home/user/bin/shortcut_c9.sh
 bindsym Shift+$alt+1 exec /home/user/bin/shortcut_v1.sh
 bindsym Shift+$alt+2 exec /home/user/bin/shortcut_v2.sh
 bindsym Shift+$alt+3 exec /home/user/bin/shortcut_v3.sh
-bindsym Shift+$alt+4 exec /home/user/bin/shortcut_v1.sh
-bindsym Shift+$alt+5 exec /home/user/bin/shortcut_v2.sh
-bindsym Shift+$alt+6 exec /home/user/bin/shortcut_v3.sh
-bindsym Shift+$alt+7 exec /home/user/bin/shortcut_v1.sh
-bindsym Shift+$alt+8 exec /home/user/bin/shortcut_v2.sh
-bindsym Shift+$alt+9 exec /home/user/bin/shortcut_v3.sh
+bindsym Shift+$alt+4 exec /home/user/bin/shortcut_v4.sh
+bindsym Shift+$alt+5 exec /home/user/bin/shortcut_v5.sh
+bindsym Shift+$alt+6 exec /home/user/bin/shortcut_v6.sh
+bindsym Shift+$alt+7 exec /home/user/bin/shortcut_v7.sh
+bindsym Shift+$alt+8 exec /home/user/bin/shortcut_v8.sh
+bindsym Shift+$alt+9 exec /home/user/bin/shortcut_v9.sh
 
 ```
 + Here user is ```$USER```
